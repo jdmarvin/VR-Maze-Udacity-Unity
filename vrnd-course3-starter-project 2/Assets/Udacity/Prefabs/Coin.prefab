@@ -137,5 +137,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4259efea429e3458b997fe590ca4b9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poofAnimation: {fileID: 1000012050171414, guid: 251f98f5c04e5b346b37c68d537e30c6,
-    type: 2}
+  coinPoof: {fileID: 1000012050171414, guid: 7002b221a4f264142ab928667af958d8, type: 2}

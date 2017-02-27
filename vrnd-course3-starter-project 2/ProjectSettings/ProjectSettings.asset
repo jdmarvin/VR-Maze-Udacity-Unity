@@ -528,7 +528,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   cloudProjectId: 398ece66-4a58-449a-a0a4-08e0afd68c83
   projectName: vrnd-course3-starter-project
