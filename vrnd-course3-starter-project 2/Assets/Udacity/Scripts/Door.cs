@@ -6,6 +6,7 @@ public class Door : MonoBehaviour
 {
     // Create a boolean value called "locked" that can be checked in OnDoorClicked() 
 	private bool locked = true;
+	private AudioSource audioClip;
 
     // Create a boolean value called "opening" that can be checked in Update()
 	public bool opening;
@@ -15,6 +16,10 @@ public class Door : MonoBehaviour
 
 		// If the door is opening and it is not fully raised
 		if (opening && doorPositionYAxis < 8.0f) {
+			//play door opening audio clip
+			audioClip = gameObject.GetComponent<AudioSource> ();
+			audioClip.Play();
+			//animate door opening
 			transform.Translate(0, 1.5f * Time.deltaTime, 0);
 		}
     }
