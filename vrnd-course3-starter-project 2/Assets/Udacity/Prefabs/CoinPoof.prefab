@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114000013397967494}
   - component: {fileID: 82000013575806410}
   m_Layer: 0
-  m_Name: Poof
+  m_Name: CoinPoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
