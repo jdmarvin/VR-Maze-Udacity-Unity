@@ -20,3 +20,5 @@
 /Users/jmarvin/Documents/Employee Docs/VR-Maze-Udacity-Unity/vrnd-course3-starter-project 2/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/jmarvin/Documents/Employee Docs/VR-Maze-Udacity-Unity/vrnd-course3-starter-project 2/obj/Debug/Assembly-CSharp.dll
 /Users/jmarvin/Documents/Employee Docs/VR-Maze-Udacity-Unity/vrnd-course3-starter-project 2/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/jmarvin/Documents/Employee Docs/VR-Maze-Udacity-Unity/vrnd-course3-starter-project 2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/jmarvin/Documents/Employee Docs/VR-Maze-Udacity-Unity/vrnd-course3-starter-project 2/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
