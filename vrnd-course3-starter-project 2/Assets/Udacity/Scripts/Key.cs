@@ -11,7 +11,8 @@ public class Key : MonoBehaviour
 
 	void Update()
 	{
-		//Not required, but for fun why not try adding a Key Floating Animation here :)
+		//Key Floating Animation
+		transform.Translate (0, 0.02f * Mathf.Sin(Time.time * 4.0f), 0, Space.World);
 	}
 
 	public void OnKeyClicked()

@@ -10,7 +10,11 @@ public class Coin : MonoBehaviour
 
 	void Update() {
 
+		//Coin Floating Animation
 		transform.Translate (0, 0.05f * Mathf.Sin(Time.time * 5.0f), 0, Space.World);
+
+		//Coin Rotating Animation
+		transform.Rotate (Vector3.up * Time.deltaTime * 100.0f, Space.World);
 	}
 
     public void OnCoinClicked() {
