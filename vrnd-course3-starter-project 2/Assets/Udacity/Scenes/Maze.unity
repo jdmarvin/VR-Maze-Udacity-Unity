@@ -24049,7 +24049,7 @@ Light:
   serializedVersion: 7
   m_Type: 3
   m_Color: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1.02
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -29591,6 +29591,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114728757229156166, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: soundFiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4693964129580462, guid: f9822e67385a4402d9bf680e50d19d58, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -29633,6 +29638,21 @@ Prefab:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114728757229156166, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: soundFiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e5a423fc890c5445fb9c3b126422891b, type: 3}
+    - target: {fileID: 114728757229156166, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: soundFiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: b6a0517e9a9d14b7b8fd6be65f68f1a5, type: 3}
+    - target: {fileID: 114728757229156166, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 2076020993}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9822e67385a4402d9bf680e50d19d58, type: 2}
   m_IsPrefabParent: 0
@@ -38035,6 +38055,11 @@ Transform:
 --- !u!1 &2076020989 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1212538085453316, guid: f9822e67385a4402d9bf680e50d19d58,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804512817}
+--- !u!82 &2076020993 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82089166722012230, guid: f9822e67385a4402d9bf680e50d19d58,
     type: 2}
   m_PrefabInternal: {fileID: 1804512817}
 --- !u!1001 &2081476549
